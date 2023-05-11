@@ -1,0 +1,333 @@
+qwa<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+  <!-- NavBar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand">HARBINGER</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mobile-menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav">
+          <li><a href="#" class="nav-link">tresc 1</a></li>
+          <li><a href="#" class="nav-link">tresc 2</a></li>
+          <li class="dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >tresc 3
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">drugi rzad 1</a>
+              <a href="#" class="dropdown-item">drugi rzad 2</a>
+              <a href="#" class="dropdown-item">drugi rzad 3</a>
+              <a href="#" class="dropdown-item">drugi rzad 4</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn-group ms-auto" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-info">
+            <i class="fa-solid fa-cart-shopping"></i> Cart
+          </button>
+          <button type="button" class="btn btn-info">
+            <i class="fa-solid fa-user"></i> Account
+          </button>
+        </div>
+      </div>
+    </nav>
+<!-- NavBar -->
+<!-- Carousel -->
+    <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="w-100"
+            src="https://images.pexels.com/photos/9187302/pexels-photo-9187302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="image"
+          />
+          <div class="carousel-caption">
+            <h4>NEW ARRIVAL 1</h4>
+            <h3>Nulla maximus 1</h3>
+            <a href="#" class="btn btn-primary">Click Me 1</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="w-100"
+            src="https://images.pexels.com/photos/4823473/pexels-photo-4823473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <div class="carousel-caption">
+            <h4>NEW ARRIVAL 2</h4>
+            <h3>Nulla maximus 2</h3>
+            <a href="#" class="btn btn-primary">Click Me 2</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="https://images.pexels.com/photos/15582409/pexels-photo-15582409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+          <div class="carousel-caption">
+            <h4>NEW ARRIVAL 3</h4>
+            <h3>Nulla maximus 3</h3>
+            <a href="#" class="btn btn-primary">Click Me 3</a>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#main-slider"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#main-slider"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+<!-- Carousel -->
+<!--Two Columns-->
+    <section class="products py-5" >
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+                <h2>Brands</h2>
+                    <div class="list-group flex-row-sm flex-column-md">
+                        <a class = "list-group-item list-group-item-action">Vivamus</a>
+                        <a class = "list-group-item list-group-item-action">Etiam</a>
+                        <a class = "list-group-item list-group-item-action">Present</a>
+                        <a class = "list-group-item list-group-item-action">Alolol</a>
+                        <a class = "list-group-item list-group-item-action">Zara</a>
+                        <a class = "list-group-item list-group-item-action">Medicine</a>
+                    </div>
+            </div>
+                    <div class="col-lg-9">
+
+                        <h2>New Arrivals</h2>
+                            <div class="row">
+                                <div class= "col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://i.imgur.com/Gj9PQP2.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5> Expecto patronum</h5>
+                                                <a class="btn btn-light">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class= "col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://i.imgur.com/l8PUiCa.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>Animato animagus</h5>
+                                                <a class="btn btn-light">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class= "col-sm-6 col-lg-4">
+                                    <div class="card">
+                                         <div class="card-image">
+                                            <img src="https://i.imgur.com/RLkHIcn.jpg"></div>
+                                         <div class="card-body">
+                                            <h5>Ascendio</h5>
+                                                <a class="btn btn-light">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class= "col-sm-6 col-lg-4 d-lg-none">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://i.imgur.com/z4jbxUj.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Expulso</h5>
+                                                <a class="btn btn-light">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+        </div>
+        </div>
+    </section>
+<!--Two Columns-->
+<!--Three tiles-->
+<section class="products py-5" >
+        <div class="container">
+          <div class="row">
+              <div class="card col-md-6 mb-3 ">
+                <img src="https://i.imgur.com/qOWyDQK.jpg">
+                    <div class="card-body position-absolute top-50 start-50 translate-middle">
+                        <h5>Winter</h5>
+                            <a class="btn btn-success">See details</a>
+                    </div>
+              </div>
+               <div class="card col-md-6 mb-3">
+                <img src="https://i.imgur.com/4R9uoxN.jpg">
+                    <div class="card-body position-absolute top-50 start-50 translate-middle">
+                        <h5>Lookbook</h5>
+                            <a class="btn btn-success">Get inspired</a>
+                    </div>
+                </div>
+              <div class="card col-12 mb-3">
+                <img src="https://i.imgur.com/guBrqTg.jpg">
+                    <div class="card-body position-absolute top-50 start-50 translate-middle">
+                        <h5><span class="change-color">News and ideas</span></h5>
+                            <a class="btn btn-success">Go to blog</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+</section>
+<!--Three tiles-->
+<!--Cards with two columns-->
+<section class="products py-2" >
+        <div class="container">
+          <div class="row">
+           <div class="col-md-4">
+                 <div class="row">
+                   <div class="card p-3 mb-3">
+                    <div class= "col-md-2">
+                        <i class="fa-solid fa-truck d-none d-md-block pt-4 ps-3"></i>
+                    </div>
+                    <div class= "col-md-10">
+                     <div class= "card-body">
+                            <h5>Free Shipping</h5>
+                            <p>Beatae vitae dicta sunt.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            </div>
+           <div class="col-md-4">
+
+                 <div class="row">
+                    <div class="card p-3 mb-3">
+                    <div class= "col-md-2" >
+                        <i class="fa-solid fa-money-bill-wave d-none d-md-block pt-4 ps-3"></i>
+                    </div>
+                    <div class= "col-md-10">
+                        <div class= "card-body">
+                            <h5>60-days refund</h5>
+                            <p>Beatae vitae dicta sunt.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            </div>
+           <div class="col-md-4">
+                 <div class="row">
+                  <div class="card p-3 mb-3">
+                    <div class= "col-md-2">
+                        <i class="fa-solid fa-life-ring d-md-block d-none pt-4 ps-3"></i>
+                    </div>
+                    <div class= "col-md-10">
+                     <div class= "card-body">
+                            <h5>support 24/7</h5>
+                            <p>Beatae vitae dicta sunt.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+           </div>
+          </div>
+        </div>
+</section>
+<!--Cards with two columns-->
+<!--Three columns-->
+  <section class="contact py-2" >
+        <div class="container">
+          <div class="row">
+
+          <div class="col-md-4 px-5 mb-3 mt-4 order-md-2">
+            <h5>HARBINGER</h5>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <i class="fa-brands fa-youtube px-1"></i>
+            <i class="fa-brands fa-facebook-f px-1"></i>
+            <i class="fa-brands fa-twitter px-1"></i>
+            <i class="fa-brands fa-instagram px-1"></i>
+           </div>
+
+           <div class="col-md-4 px-5 mb-3 mt-4 order-md-3">
+            <h5>Contact Us</h5>
+            <p>2795 Cunningham Court <br>
+            Rochester Hills 485569 <br>
+            Michigan</p>
+            <a href="#">support@company.com</a>
+           </div>
+
+           <div class="col-md-4 px-5 mb-3 mt-4 order-md-1">
+            <h5>Newsletter</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <form>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> </form>
+            <button type="button" class="btn btn-info">Submit</button>
+           </div>
+
+          </div>
+        </div>
+  </section>
+<!--Three columns-->
+
+<!--Footer-->
+ <footer>
+        <div class="row d-flex py-3 justify-content-evenly">
+                <div class="col-md-4 footer-copyright text-center"> © Harbinger Ltd.
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline">
+                     <li class="list-inline-item"><a href="#">About</a></li>
+                     <li class="list-inline-item"><a href="#">Delivery</a></li>
+                     <li class="list-inline-item"><a href="#">Returns</a></li>
+                     <li class="list-inline-item"><a href="#">Privacy policy</a></li>
+                     <li class="list-inline-item"><a href="#">Terms and conditions</a></li>
+                    </ul>
+                </div>
+        </div>
+</footer>
+<!--Footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

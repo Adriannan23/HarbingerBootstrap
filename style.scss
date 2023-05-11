@@ -1,0 +1,44 @@
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    }
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+
+.contact {
+    background-color: #eff2f5;
+    }
+
+.contact {
+    a {
+        text-decoration: none;
+        }
+    i {
+        font-size: 16px;
+        }
+    }
+
+    .list-inline-item {
+        a { text-decoration: none;
+
+            }
+        }
+
+footer {
+        background: #D8F5FF;
+    }
+
+.change-color {
+    color: #fff;
+    }
+
+
